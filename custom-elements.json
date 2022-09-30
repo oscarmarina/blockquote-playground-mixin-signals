@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/BlockquoteMixinSignals.js",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "BlockquoteMixinSignals"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "BlockquoteMixinSignals",
+          "declaration": {
+            "name": "BlockquoteMixinSignals",
+            "module": "src/BlockquoteMixinSignals.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "BlockquoteMixinSignals",
+          "declaration": {
+            "name": "BlockquoteMixinSignals",
+            "module": "./src/BlockquoteMixinSignals.js"
+          }
+        }
+      ]
+    }
+  ]
+}

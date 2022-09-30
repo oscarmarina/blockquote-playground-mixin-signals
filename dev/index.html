@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head>
+    <title>Demo - blockquote-playground-mixin-signals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Put your description here.">
+    <meta charset="utf-8">
+    <style>
+      html,
+      body {
+        height: 100%;
+        font-family: sans-serif;
+      }
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">blockquote-playground-mixin-signals</h1>
+      <p>
+        This examples shows off integration with
+        <a href="https://preactjs.com/blog/introducing-signals/"><code>@preact/signals</code></a>
+        with a <code>SignalWatcher</code> mixin that will update the Lit element whenever any
+        signals it uses change.
+      </p>
+      <p>
+        In this example ine signal is shared across all component instances, and changes to the
+        signal update all instances.
+      </p>
+      <p>
+        The example component uses both a signal and a Lit reactive property to show how they both
+        integrate with the Lit reactive update lifecycle.
+      </p>
+      <section>
+        <signal-example heading="Instance 1"></signal-example>
+        <signal-example heading="Instance 2"></signal-example>
+        <signal-example heading="Instance 3"></signal-example>
+        <signal-example heading="Instance 4"></signal-example>
+      </section>
+    </main>
+
+
+
+
+<script type="module" src="./assets/inline-module-66ac15b2bccb1a218f513c6d316879cc.28b093e6.js"></script></body></html>
